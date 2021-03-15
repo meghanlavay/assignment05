@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 0;
+    padding-left: 20px;
+}
+
+form { 
+    width: 30%;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+fieldset {
+    background-color: #dedede;
+    border: solid 2px orange;
+    padding: 1em;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: .5em;
+    display: block;
+}
+
+input, select { 
+    margin-bottom: 1em;
+    height: 2em;
+}
+
+input[type="submit"] {
+    color: #fff;
+    background-color: #3d7cf2;
+    padding: .5em;
+    border: none;
+    border-radius: 3px;
+    height: 3em;
+    margin-top: 1em;
+    display: block;
+
+}

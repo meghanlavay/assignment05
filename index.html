@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body class="mt-2 ml-4">
+    <h1>Employee Management System</h1>
+
+    <form id="empForm">
+
+        <fieldset>
+                <label for="employeeId">8-Digit Employee ID</label>
+                <input type="text" id="employeeId" name="employeeId" maxlength="8" required>
+        
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" name="fullName" required>
+            
+                <label for="ext">4-Digit Extension</label>
+                <input type="text" id="ext" name="ext" maxlength="4" required>
+           
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+           
+                <label for="department">Department</label>
+                    <select id="department" name="department" required>
+                        <option value="administrative">Administrative</option>
+                        <option value="engineering">Engineering</option>
+                        <option value="executive">Executive</option>
+                        <option value="marketing">Marketing</option>
+                        <option value="qualityassurance">Quality Assurance</option>
+                        <option value="sales">Sales</option>
+                    </select>
+
+            <input type="submit" value="Add Employee">
+        </fieldset>
+    </form>
+
+</body>
+</html>
